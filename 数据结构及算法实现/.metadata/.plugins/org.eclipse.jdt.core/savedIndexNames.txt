@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\VS项目\数据结构入门\常用的算法实现\.metadata\.plugins\org.eclipse.jdt.core
+104043734.index
+226975182.index

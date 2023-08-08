@@ -1,0 +1,10 @@
+package date_structure_imp;
+
+// 1Ï¡ÊèÊı×éµÄÑ¹Ëõ
+public class SparseArray {
+	public static void main(String[] args) {
+
+		int[][] sparseArr = new int[10][10];
+
+	}
+}

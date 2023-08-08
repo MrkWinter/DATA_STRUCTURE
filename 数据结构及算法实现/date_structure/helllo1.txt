@@ -1,0 +1,1443 @@
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    }
+   public byte[] huffmanCodeZip(byte[] bytes) {
+        HashMap<Byte, String> huffmanCode = createHuffmanCode(bytes);
+        StringBuilder strBui = new StringBuilder();
+        //将字节数组根据哈夫曼编码转换成二进制字符串
+        for (byte key : bytes) {
+            strBui.append(huffmanCode.get(key));
+        }
+        //计算该字符串转换成字节数组要多大容量
+        int len = (strBui.length() + 7) / 8;
+        byte[] huffmanByteArr = new byte[len];
+        int index = 0;
+        String byteString = "";
+        for (int i = 0; i < strBui.length(); i += 8) {
+            if (i + 8 > strBui.length()) {
+                byteString = strBui.substring(i);
+                huffmanCodeEndDigit = strBui.length() - i;
+            } else {
+                byteString = strBui.substring(i, i + 8);
+            }
+            huffmanByteArr[index++] = (byte) Integer.parseInt(byteString, 2);
+            //将byteString当做补码来看 实际转换成byte时看原码
+        }
+        return huffmanByteArr;
+    

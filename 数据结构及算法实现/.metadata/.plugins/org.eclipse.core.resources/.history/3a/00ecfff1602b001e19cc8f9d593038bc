@@ -1,0 +1,8 @@
+package date_structure_imp;
+
+public class SparseArray {
+	public static void main(String[] args) {
+		System.out.print(false);
+		
+	}
+} 
